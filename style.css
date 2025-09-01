@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222;
+    line-height: 1.6;
+  }
+  
+  /* Navbar */
+  .navbar {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  .nav-container nav a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #222;
+  }
+  
+  /* Hero */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #e0f7fa, #f1f8e9);
+  }
+  .hero-text {
+    max-width: 50%;
+  }
+  .hero-img img {
+    width: 250px;
+    border-radius: 12px;
+  }
+  .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    border: 1px solid #333;
+    text-decoration: none;
+    color: #333;
+    background: #fff;
+  }
+  .btn.secondary {
+    background: transparent;
+  }
+  
+  /* Sections */
+  .section {
+    padding: 3rem 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .section h2 {
+    margin-bottom: 1.5rem;
+  }
+  .card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    background: #fafafa;
+  }
+  
+  /* Contact */
+  form input, form textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  form button {
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-top: 1px solid #ddd;
+  }
+  

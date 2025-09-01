@@ -1,52 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Awesome Personal Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        h1 {
-            color: #007bff;
-        }
-        p {
-            font-size: 1.2em;
-        }
-
-        .dont-click {
-            background-color: rgb(200, 0, 0);
-            color: white;
-            border: none;
-            font-size: 15px;
-            cursor: pointer;
-            padding-right: 16px;
-            padding-left: 16px;
-            padding-bottom: 8px;
-            padding-top: 8px;
-            border-radius: 15px;
-
-            transition:
-                background-color 0.15s,
-                box-shadow 0.15s;
-        }
-
-        .dont-click:hover {
-            background-color: red;
-            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15)
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karthik Srinivasan – Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
-    <h1>Welcome to My Personal Website!</h1>
-    <p>This is a simple website hosted on GitHub Pages.</p>
-    <p>Stay tuned for more updates!</p>
-    <p>Meanwhile, here's a button</p>
-    <button class='dont-click'> Don't click </button>
+  <!-- Header -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">Karthik Srinivasan</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Computational Biologist & ML Scientist</h1>
+      <p>I build latent-variable models for ecosystems and design proteins with generative methods.</p>
+      <a href="#contact" class="btn">Contact Me</a>
+      <a href="#publications" class="btn secondary">See Publications</a>
+    </div>
+    <div class="hero-img">
+      <!-- Replace with your picture -->
+      <img src="portrait.jpg" alt="Karthik Srinivasan portrait">
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h2>About</h2>
+    <p>I am a PhD candidate studying microbial community structure. My work combines probabilistic modeling, dynamical systems, and deep learning. Previously, I worked on protein design pipelines and open-source coding tools.</p>
+  </section>
+
+  <!-- Publications -->
+  <section id="publications" class="section">
+    <h2>Publications</h2>
+    <ul>
+      <li><strong>Learning Latent Ecologies from Consumer–Resource Dynamics</strong><br>
+      Journal of Complex Systems, 2024</li>
+      <li><strong>Cleavage-aware Protein Design with Diffusion Models</strong><br>
+      ICLR Workshop, 2025</li>
+      <li><strong>Temporal Signatures of Corporate Ecosystems</strong><br>
+      arXiv, 2025</li>
+    </ul>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+    <div class="card">
+      <h3>Human Frontier Collective Specialist – GenAI (Intern)</h3>
+      <p>Scale AI · 2025</p>
+      <ul>
+        <li>Labeled complex multi-turn prompts for safety and reasoning benchmarks.</li>
+        <li>Wrote annotation guidelines and ran rater calibration.</li>
+        <li>Audited datasets; improved agreement by 14%.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Graduate Research Assistant</h3>
+      <p>Your University · 2023 — present</p>
+      <ul>
+        <li>Latent ecology models for microbiome–metabolome data.</li>
+        <li>Protein design with ESMFold + RFdiffusion.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Blog -->
+  <section id="blog" class="section">
+    <h2>Blog</h2>
+    <article class="card">
+      <h3>How many dimensions do microbiomes really need?</h3>
+      <p>2025-04-14</p>
+      <p>Quick tour through latent variable models in community ecology.</p>
+      <a href="#">Read more →</a>
+    </article>
+    <article class="card">
+      <h3>From RFdiffusion to wet lab: constraints that travel</h3>
+      <p>2025-04-04</p>
+      <p>Notes on translating in-silico stability signals into design objectives.</p>
+      <a href="#">Read more →</a>
+    </article>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name">
+      <input type="email" name="email" placeholder="Your Email">
+      <textarea name="message" placeholder="Message"></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+    <p>Email: <a href="mailto:karthik@lab.edu">karthik@lab.edu</a></p>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Karthik Srinivasan</p>
+  </footer>
 </body>
 </html>
