@@ -28,6 +28,16 @@ body {
   
   /* Hero */
   .hero {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #e0f7fa, #f1f8e9);
+  }
+
+  .hero-container {
+    max-width: 1000px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
