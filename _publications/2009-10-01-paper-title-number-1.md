@@ -1,6 +1,6 @@
 ---
 title: "Solving linear systems of equations by gaussian elimination method using Grover's search algorithm: an IBM quantum experience"
-collection: preprints
+collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'Quantum algorithm plays a notable role in solving linear systems of equations with an exponential speedup over the classical algorithm. Here we demonstrate Gaussian elimination method for solving system of equations by using the well known Grover's quantum search algorithm. The elimination method mainly involves elementary row operations which can be performed by applying particular matrices that can be obtained from Grover's algorithm. We explicitly illustrate the whole process by taking a simple example consisting of a set of equations. '
