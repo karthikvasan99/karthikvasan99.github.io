@@ -137,19 +137,22 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : "karthikvasan99"
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : "profile.png"
+og_description           : "PhD candidate, Biomedical Engineering at Yale — academic portfolio of Karthik Srinivasan"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type: Person
+  name: "Karthik Srinivasan"
+  links:
+    - "https://github.com/karthikvasan99"
+    - "https://www.linkedin.com/in/karthikvasan99"
+    - "https://karthikvasan99.github.io"
 
 
 # Analytics
